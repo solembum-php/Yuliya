@@ -46,7 +46,7 @@ if (!isset($_FILES['photo'])) {
     } else {
         $photo_path = PHOTO_DIR . DIRECTORY_SEPARATOR . $photo['name'];
         if (move_uploaded_file($photo['tmp_name'], $photo_path)) {
-            header('Location:photogallery.php');
+            header('Location:addphoto.php');
 //echo 'file was uploaded';
         } else {
             echo 'move uploaded file failed';
