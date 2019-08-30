@@ -5,6 +5,17 @@
         <title>AdminPage</title>
     </head>
     <body>
+	<form method="post" name="admin_page" action="admin_correct.php">
+            <label>
+                Login:
+                <input type="text" name="login"/>
+            </label>
+	    <label>
+                Password:
+                <input type="password" name="pass"/>
+            </label>
+            <input type="submit" value="log in"/>
+        </form>
 	<?php
 	// put your code here
 	?>
