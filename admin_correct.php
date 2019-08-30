@@ -7,7 +7,7 @@
     <body>
 	<h1>Admin Page</h1>
 	<a href="">Edit MainPage</a>
-	<a href="">Photogallery</a>
+	<a href="addphoto.php">Photogallery</a>
     </body>
 </html>
 
