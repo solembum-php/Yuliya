@@ -8,11 +8,11 @@
 	<form method="post" name="admin_page" action="admin_correct.php">
             <label>
                 Login:
-                <input type="text" name="login"/>
+                <input type="text" name="login" value="admin"/>
             </label>
 	    <label>
                 Password:
-                <input type="password" name="pass"/>
+                <input type="password" name="pass" value="admin"/>
             </label>
             <input type="submit" value="log in"/>
         </form>
