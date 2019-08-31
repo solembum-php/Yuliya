@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Yuliya's Site</title>
-        <script src="../ckeditor.js"></script>
+        
     </head>
     <body>
         <header>
