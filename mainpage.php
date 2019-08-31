@@ -14,6 +14,7 @@
 	</nav>
 	<main>
 	    <h2>Hi, all cat lovers!</h2>
+            <textarea>Here's some information on cats I'd like to share with you.</textarea>
 	</main>
 	<footer>Powered by solembum 2019</footer>
 	<?php
