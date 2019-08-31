@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>main page</title>
-        <script src="../ckeditor.js"></script>
+        <script src="ckeditor/ckeditor.js"></script>
     </head>
     <body>
         <form>
