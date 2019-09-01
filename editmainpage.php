@@ -7,7 +7,7 @@
     </head>
     <body>
         <form action="edittext.php" method="post">
-            <textarea name="editor1" id="editor1" rows="10" cols="80">
+            <textarea name="text" id="editor1" rows="10" cols="80">
                     Here's some information on cats I'd like to share with you.
             </textarea>
             <input id="add_btn" type="submit" value="save edit text"/>

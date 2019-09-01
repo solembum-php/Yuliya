@@ -7,6 +7,11 @@ function getAllPictures(){
     return $pictures;
 }
 
+function getRequestText() {
+    $text = $_POST['text'];
+    return $text;
+}
+
 function getText() {
     if (!file_exists(MAINPAGE_TEXT)) {
         return false;
