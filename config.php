@@ -1,4 +1,4 @@
 <?php
 
-const ALL_NEWS = 'data' . DIRECTORY_SEPARATOR . 'allnews.json';
+const MAINPAGE_TEXT = 'data' . DIRECTORY_SEPARATOR . 'mainpagetext.json';
 
