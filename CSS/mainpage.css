@@ -42,6 +42,5 @@ footer{
     background-color: #eeccff;
 }
 #pictures{
-    display: flex;
-    flex-direction: row;
+    display: inline-table;
 }
