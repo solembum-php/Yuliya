@@ -1,1 +1,26 @@
 
+body{
+    background-color: #ffcccc;
+}
+h1{
+    text-align: center;
+    color: #336600;
+}
+form{
+    width: 40%;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-weight: bold;
+}
+#pictures{
+    display: flex;
+    flex-direction: row;
+}
