@@ -1,10 +1,24 @@
 
-body{
-    background-color: #ffcccc;
+header{
+    min-height: 90px;
+    background-color: #ecc6d9;
 }
 h1{
     text-align: center;
-    color: #336600;
+    color: #990099;
+}
+nav{
+    min-height: 90px;
+    color:#009999;
+    font-weight: bold;
+    background-color: #f3d8e5;
+}
+main{
+    background-color: #ffffb3;
+}
+h2{
+    color:#cc6699;
+    text-align: center;
 }
 form{
     width: 40%;
@@ -19,6 +33,13 @@ label{
     flex-direction: column;
     margin: 10px 0;
     font-weight: bold;
+}
+footer{
+    color: #446600;
+    text-align: center;
+    font-weight: bold;
+    min-height: 90px;
+    background-color: #eeccff;
 }
 #pictures{
     display: flex;

@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Yuliya's Site</title>
+        <link href="CSS/mainpage.css" rel="stylesheet" type="text/css"/>
         <script src="ckeditor/ckeditor.js"></script>
     </head>
     <body>
