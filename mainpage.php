@@ -19,9 +19,7 @@
                 <textarea name="editor1" id="editor1" rows="10" cols="80">
                     
                 </textarea>
-                <script>
-                    CKEDITOR.replace('editor1');
-                </script>
+                
             </form>
         </main>
         <footer>Powered by solembum 2019</footer>
