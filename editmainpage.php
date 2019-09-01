@@ -1,3 +1,9 @@
+<?php
+
+include_once 'config.php';
+include_once 'functions.php';
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,8 +13,8 @@
     </head>
     <body>
         <form action="edittext.php" method="post">
-            <textarea name="text" id="editor1" rows="10" cols="80">
-                    Here's some information on cats I'd like to share with you.
+            <textarea name="new_text" id="editor1" rows="10" cols="80">
+                    <?php echo $texts; ?>
             </textarea>
             <input id="add_btn" type="submit" value="save edit text"/>
             <script>
