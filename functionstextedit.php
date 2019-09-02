@@ -28,7 +28,7 @@ function saveText($texts) {
     return (bool) $res;
 }
 
-function editText($text) {
+function addText($text) {
     $texts = getText();
     $texts[] = $text;
     saveText($texts);
