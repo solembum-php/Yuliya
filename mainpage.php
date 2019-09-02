@@ -16,12 +16,13 @@
         </nav>
         <main>
             <h2>Hi, all cat lovers!</h2>
+            <?php foreach ($texts as $key => $text) : ?>
             <form>
                 <textarea name="editor1" id="editor1" rows="10" cols="80">
-                    
+                    <?= $text['new_text'] ?>
                 </textarea>
-                
             </form>
+            <?php endforeach; ?>
         </main>
         <footer>Powered by solembum 2019</footer>
         <?php

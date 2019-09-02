@@ -5,4 +5,4 @@ include_once 'functionstextedit.php';
 
 $text = getRequestText();
 addText($text);
-header('Location:editmainpage.php');
+header('Location:mainpage.php');
