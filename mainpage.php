@@ -16,13 +16,13 @@
         </nav>
         <main>
             <h2>Hi, all cat lovers!</h2>
-            <?php foreach ($texts as $key => $text) : ?>
+            
             <form>
-                <textarea name="editor1" id="editor1" rows="10" cols="80">
-                    <?= $text['new_text'] ?>
+                <textarea name="new_text" id="editor1" rows="10" cols="80">
+                    Cats are the most mysterious creatures in the world.
                 </textarea>
             </form>
-            <?php endforeach; ?>
+            
         </main>
         <footer>Powered by solembum 2019</footer>
         <?php
