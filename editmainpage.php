@@ -3,6 +3,7 @@
 include_once 'config.php';
 include_once 'functionstextedit.php';
 
+$texts = getText();
 ?>
 <!DOCTYPE html>
 <html>
