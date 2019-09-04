@@ -17,7 +17,8 @@
         <main>
             <h2>Hi, all cat lovers!</h2>
             <form>
-            </form> 
+            </form>
+            <h3>And here are some famous sayings about cats:</h3>
             <p>“Time spent with cats is never wasted.” – Sigmund Freud.</p>
             <p>“Cats rule the world.” – Jim Davis.</p>
             <p>“Like all pure creatures, cats are practical.” – William S. Burroughs.</p>
