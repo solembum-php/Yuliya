@@ -16,9 +16,10 @@
         </nav>
         <main>
             <h2>Hi, all cat lovers!</h2>
-            <form>
-            </form>
-            <h3>And here are some famous sayings about cats:</h3>
+            <div>
+                <h3></h3>
+            </div>
+            <h4>And here are some famous sayings about cats:</h4>
             <p>“Time spent with cats is never wasted.” – Sigmund Freud.</p>
             <p>“Cats rule the world.” – Jim Davis.</p>
             <p>“Like all pure creatures, cats are practical.” – William S. Burroughs.</p>

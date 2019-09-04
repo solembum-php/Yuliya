@@ -5,5 +5,4 @@ include_once 'functionstextedit.php';
 
 $new_text = getRequestText();
 var_dump($new_text);
-addText($new_text);
 header('Location:mainpage.php');
