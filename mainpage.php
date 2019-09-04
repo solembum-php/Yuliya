@@ -16,13 +16,13 @@
         </nav>
         <main>
             <h2>Hi, all cat lovers!</h2>
-            
             <form>
-                <textarea name="new_text" id="editor1" rows="10" cols="80">
-                    Cats are the most mysterious creatures in the world.
-                </textarea>
-            </form>
-            
+            </form> 
+            <p>“Time spent with cats is never wasted.” – Sigmund Freud.</p>
+            <p>“Cats rule the world.” – Jim Davis.</p>
+            <p>“Like all pure creatures, cats are practical.” – William S. Burroughs.</p>
+            <p>“Cats will outsmart dogs every time.” – John Grogan.</p>
+            <p>“Cats choose us; we don't own them.” – Kristin Cast.</p>
         </main>
         <footer>Powered by solembum 2019</footer>
         <?php
