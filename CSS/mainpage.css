@@ -44,3 +44,7 @@ footer{
     display: inline-table;
     background-color: #ffffb3;
 }
+p{
+    font-weight: bold;
+    font-size: 10px;
+}
