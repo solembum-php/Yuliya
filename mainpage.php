@@ -1,6 +1,8 @@
 <?php
 include_once 'config.php';
 include_once 'functionstextedit.php';
+
+$new_text = getRequestText();
 ?>
 
 <!DOCTYPE html>
