@@ -2,10 +2,11 @@
 
 function getRequestText() {
     $new_text = $_GET['new_text'];
-    return $new_text;
+    $text = array($new_text);
+    return $text;
 }
 
-function getText() {
+function getThisText() {
     if (!file_exists(MAINPAGE_TEXT)) {
         return false;
     } else {
@@ -13,21 +14,22 @@ function getText() {
         if (!$content) {
             return false;
         } else {
-            $new_texts = json_decode($content, true);
-            return $new_texts;
+            $texts = json_decode($content, true);
+            return $texts;
         }
     }
 }
 
-function saveText($new_texts) {
-    $content = json_encode($new_texts);
+function saveText($texts) {
+    $content = json_encode($texts);
     $res = file_put_contents(MAINPAGE_TEXT, $content);
     return (bool) $res;
 }
 
-function addText($new_text) {
-    $new_texts = getText();
-    $new_texts[] = $new_text;
-    saveText($new_texts);
+
+function showText($text){
+    $texts = getThisText();
+    $texts[] = $text;
+    saveText($texts);
 }
 

@@ -3,6 +3,6 @@
 include_once 'config.php';
 include_once 'functionstextedit.php';
 
-$new_text = getRequestText();
-addText($new_text);
-header('Location:mainpage.php');
+$text = getRequestText();
+var_dump(getThisText());
+//header('Location:mainpage.php');

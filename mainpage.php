@@ -2,7 +2,7 @@
 include_once 'config.php';
 include_once 'functionstextedit.php';
 
-$new_texts = getText();
+$texts = getThisText();
 ?>
 
 <!DOCTYPE html>
@@ -24,9 +24,9 @@ $new_texts = getText();
         <main>
             <h2>Hi, all cat lovers!</h2>
 
-            <?php foreach ($new_texts as $key => $new_text) : ?>
+            <?php foreach ($texts as $key => $text) : ?>
                 <div id="text">
-                    <h3><?= $new_text['new_text'] ?></h3>
+                    <h3><?= $text['new_text'] ?></h3>
                 </div>
             <?php endforeach; ?>
 
