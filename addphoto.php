@@ -8,6 +8,7 @@ $pictures = getAllPictures();
     <head>
         <meta charset="UTF-8">
         <title>Yuliya's Photogallery</title>
+        <link href="CSS/mainpage.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
 	<header>
