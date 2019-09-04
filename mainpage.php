@@ -24,14 +24,13 @@ $texts = getTexts();
         <main>
             <h2>Hi, all cat lovers!</h2>
 
-            <?php foreach ($texts as $text) : ?>
+            <?php foreach ($texts as $key => $text) : ?>
                 <div id="text">
-
-                    <h3><?= $text['new_text'] ?></h3>
-
+                    <?php if($key === (count($texts)-1) ) : ?>
+                        <h3><?= $text['new_text'] ?></h3>
+                    <?php endif; ?>
                 </div>
             <?php endforeach; ?>
-
 
 
             <h4>And here are some famous sayings about cats:</h4>
