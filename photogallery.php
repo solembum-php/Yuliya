@@ -18,7 +18,7 @@ $pictures = getAllPictures();
             <?php foreach ($pictures as $key => $picture) : ?>
                 <div id="pictures">
                     <?php if ($key !== 0 && $key !== 1) : ?>
-                        <a><img src="photos/<?= $picture ?>" alt="photo" width="200"/></a>
+                        <a><img src="photos/<?= $picture ?>" alt="photo" height="200"/></a>
                     <?php endif; ?>
                 </div>
             <?php endforeach; ?>
