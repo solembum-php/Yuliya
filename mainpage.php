@@ -1,5 +1,4 @@
 <?php
-
 include_once 'config.php';
 include_once 'functionstextedit.php';
 ?>
@@ -23,7 +22,7 @@ include_once 'functionstextedit.php';
         <main>
             <h2>Hi, all cat lovers!</h2>
             <div>
-                <h3><?=$new_text?></h3>
+                <h3><?php echo $new_text ?></h3>
             </div>
             <h4>And here are some famous sayings about cats:</h4>
             <p>“Time spent with cats is never wasted.” – Sigmund Freud.</p>
