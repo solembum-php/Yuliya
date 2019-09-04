@@ -2,11 +2,18 @@
 
 function getRequestText() {
     $new_text = $_GET['new_text'];
-    $text = array($new_text);
+    $text = array(
+        'new_text' => $new_text,
+    );
     return $text;
 }
 
-function getThisText() {
+//function getRequestTextKey() {
+//    $key = $_GET['index'];
+//    return $key;
+//}
+
+function getTexts() {
     if (!file_exists(MAINPAGE_TEXT)) {
         return false;
     } else {
@@ -20,16 +27,20 @@ function getThisText() {
     }
 }
 
-function saveText($texts) {
+function saveTexts($texts) {
     $content = json_encode($texts);
     $res = file_put_contents(MAINPAGE_TEXT, $content);
     return (bool) $res;
 }
 
-
-function showText($text){
-    $texts = getThisText();
+function addTexts($text) {
+    $texts = getTexts();
     $texts[] = $text;
-    saveText($texts);
+    saveTexts($texts);
 }
 
+//function deleteNews($key) {
+//    $news_items = getNews();
+//    unset($news_items[$key]);
+//    saveNews($news_items);
+//}

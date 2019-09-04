@@ -2,7 +2,7 @@
 include_once 'config.php';
 include_once 'functionstextedit.php';
 
-$texts = getThisText();
+$texts = getTexts();
 ?>
 
 <!DOCTYPE html>
@@ -24,11 +24,15 @@ $texts = getThisText();
         <main>
             <h2>Hi, all cat lovers!</h2>
 
-            <?php foreach ($texts as $key => $text) : ?>
+            <?php foreach ($texts as $text) : ?>
                 <div id="text">
+
                     <h3><?= $text['new_text'] ?></h3>
+
                 </div>
             <?php endforeach; ?>
+
+
 
             <h4>And here are some famous sayings about cats:</h4>
             <p>“Time spent with cats is never wasted.” – Sigmund Freud.</p>

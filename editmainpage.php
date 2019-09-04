@@ -14,7 +14,7 @@ include_once 'functionstextedit.php';
     <body>
         <form action="edittext.php" method="get">
             <textarea name="new_text" id="editor1" rows="10" cols="80">
-                Cats are the most mysterious creatures in the world.
+                
             </textarea>
             <input id="add_btn" type="submit" value="save edit text"/>
             <script>
